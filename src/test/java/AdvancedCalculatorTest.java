@@ -7,7 +7,7 @@ public class AdvancedCalculatorTest {
    @Test (priority = 2)
     public void testAdvancedFactorial() {
        Calculations calculator= new Calculations();
-       Assert.assertEquals(calculator.factorial(5), 120);
+       Assert.assertEquals(calculator.factorial(4), 24);
    }
    @Test(priority = 1)
     public void testAdvancedFactorial2() {
