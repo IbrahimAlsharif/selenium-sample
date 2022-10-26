@@ -1,3 +1,5 @@
+package unit_tests;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pita.Calculations;

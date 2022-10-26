@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d38e724f-35a3-40aa-8927-6cdecd82dad7" name="Changes" comment="Add AdvancedCalculatorTest test suite">
+    <list default="true" id="d38e724f-35a3-40aa-8927-6cdecd82dad7" name="Changes" comment="Add webdriver calculator website with data provider test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/FirstWebsiteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomePagePOM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AdvancedCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit_tests/AdvancedCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit_tests/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,24 +56,11 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CalculatorTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pita.Main" />
-      <module name="selenium sample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pita.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.FirstWebsiteTest.verifyThatAutoSearchWorks">
+    <configuration name="FirstWebsiteTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium sample" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="MAIN_CLASS_NAME" value="FirstWebsiteTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -77,11 +68,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testPrint" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstWebsiteTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium sample" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="testPrint" />
+      <option name="MAIN_CLASS_NAME" value="FirstWebsiteTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -89,11 +80,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testTrue" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstWebsiteTest.verifyThatAutoSearchWorks" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium sample" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="testTrue" />
+      <option name="MAIN_CLASS_NAME" value="FirstWebsiteTest" />
+      <option name="METHOD_NAME" value="verifyThatAutoSearchWorks" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -101,10 +92,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstWebsiteTest.verifyThatHomeIsOpenedSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium sample" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="MAIN_CLASS_NAME" value="FirstWebsiteTest" />
+      <option name="METHOD_NAME" value="verifyThatHomeIsOpenedSuccessfully" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstWebsiteTest.verifyThatSearchFiledIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium sample" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstWebsiteTest" />
+      <option name="METHOD_NAME" value="verifyThatSearchFiledIsDisplayed" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -113,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CalculatorTest" />
-        <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.CalculatorTest.testTrue" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="TestNG.CalculatorTest.testPrint" />
+        <item itemvalue="TestNG.FirstWebsiteTest.verifyThatAutoSearchWorks" />
+        <item itemvalue="TestNG.FirstWebsiteTest" />
+        <item itemvalue="TestNG.FirstWebsiteTest.verifyThatSearchFiledIsDisplayed" />
+        <item itemvalue="TestNG.FirstWebsiteTest.verifyThatHomeIsOpenedSuccessfully" />
+        <item itemvalue="TestNG.FirstWebsiteTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666788791010</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add webdriver calculator website with data provider test">
+      <created>1666791971422</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666791971422</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +189,7 @@
     <MESSAGE value="change print statement" />
     <MESSAGE value="Add factorial test suite" />
     <MESSAGE value="Add AdvancedCalculatorTest test suite" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add AdvancedCalculatorTest test suite" />
+    <MESSAGE value="Add webdriver calculator website with data provider test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add webdriver calculator website with data provider test" />
   </component>
 </project>
