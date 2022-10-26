@@ -5,5 +5,7 @@ public class Main {
         Calculations calculations= new Calculations();
         int result= calculations.factorial(5);
         System.out.println(result);
+        System.out.println(result);
+        System.out.println(result);
     }
 }
