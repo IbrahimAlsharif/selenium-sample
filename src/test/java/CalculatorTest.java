@@ -15,6 +15,7 @@ public class CalculatorTest {
        Calculations calculator= new Calculations();
        Assert.assertEquals(calculator.factorial(input), expected);
    }
+   //tareq
 
 
 }
