@@ -4,174 +4,66 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d38e724f-35a3-40aa-8927-6cdecd82dad7" name="Changes" comment="Add webdriver calculator website with data provider test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/FirstWebsiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomePagePOM.java" afterDir="false" />
+    <list default="true" id="5a957931-3f54-4380-b08b-de579bd56126" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AdvancedCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit_tests/AdvancedCalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit_tests/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="2" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
-  <component name="ProjectId" id="2Gd7iDsh3DLeoSRbC7kT85rm6Ko" />
+  <component name="ProjectId" id="2GiJ6OaWRrvKpkMrDKKppfDVI5h" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-  </component>
-  <component name="RunManager" selected="TestNG.FirstWebsiteTest.verifyThatAutoSearchWorks">
-    <configuration name="FirstWebsiteTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium sample" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstWebsiteTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstWebsiteTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium sample" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstWebsiteTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstWebsiteTest.verifyThatAutoSearchWorks" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium sample" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstWebsiteTest" />
-      <option name="METHOD_NAME" value="verifyThatAutoSearchWorks" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstWebsiteTest.verifyThatHomeIsOpenedSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium sample" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstWebsiteTest" />
-      <option name="METHOD_NAME" value="verifyThatHomeIsOpenedSuccessfully" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstWebsiteTest.verifyThatSearchFiledIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium sample" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstWebsiteTest" />
-      <option name="METHOD_NAME" value="verifyThatSearchFiledIsDisplayed" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="TestNG.FirstWebsiteTest.verifyThatAutoSearchWorks" />
-        <item itemvalue="TestNG.FirstWebsiteTest" />
-        <item itemvalue="TestNG.FirstWebsiteTest.verifyThatSearchFiledIsDisplayed" />
-        <item itemvalue="TestNG.FirstWebsiteTest.verifyThatHomeIsOpenedSuccessfully" />
-        <item itemvalue="TestNG.FirstWebsiteTest.test" />
-      </list>
-    </recent_temporary>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d38e724f-35a3-40aa-8927-6cdecd82dad7" name="Changes" comment="" />
-      <created>1666706742706</created>
+      <changelist id="5a957931-3f54-4380-b08b-de579bd56126" name="Changes" comment="" />
+      <created>1666865295294</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666706742706</updated>
+      <updated>1666865295294</updated>
+      <workItem from="1666865298196" duration="264000" />
+      <workItem from="1666865613248" duration="579000" />
+      <workItem from="1666867367242" duration="379000" />
     </task>
-    <task id="LOCAL-00001" summary="add dependecies">
-      <created>1666709623756</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1666709623756</updated>
-    </task>
-    <task id="LOCAL-00002" summary="change print statement">
-      <created>1666710160097</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1666710160097</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Add factorial test suite">
-      <created>1666787592142</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1666787592142</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Add AdvancedCalculatorTest test suite">
-      <created>1666788791010</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1666788791010</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Add webdriver calculator website with data provider test">
-      <created>1666791971422</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1666791971422</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -183,13 +75,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="add dependecies" />
-    <MESSAGE value="change print statement" />
-    <MESSAGE value="Add factorial test suite" />
-    <MESSAGE value="Add AdvancedCalculatorTest test suite" />
-    <MESSAGE value="Add webdriver calculator website with data provider test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add webdriver calculator website with data provider test" />
   </component>
 </project>
