@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d38e724f-35a3-40aa-8927-6cdecd82dad7" name="Changes" comment="Set the webdriver as headless">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/uiTest.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/uiTest.yml" afterDir="false" />
+    <list default="true" id="d38e724f-35a3-40aa-8927-6cdecd82dad7" name="Changes" comment="set push trigger to false">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FirstWebsiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstWebsiteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebDriverClaculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebDriverClaculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667041153439</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="set push trigger to false">
+      <created>1667041525006</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667041525006</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +235,7 @@
     <MESSAGE value="Add test run command" />
     <MESSAGE value="update test run command" />
     <MESSAGE value="Set the webdriver as headless" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set the webdriver as headless" />
+    <MESSAGE value="set push trigger to false" />
+    <option name="LAST_COMMIT_MESSAGE" value="set push trigger to false" />
   </component>
 </project>

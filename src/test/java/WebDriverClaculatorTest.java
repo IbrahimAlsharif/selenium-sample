@@ -36,7 +36,7 @@ public class WebDriverClaculatorTest {
 
 
 
-    @Test (dataProvider = "calculator")
+    @Test (dataProvider = "calculator", enabled = false)
     public void testCalculator(int number1,String operation, int number2, int expectedResult){
 
        //Click the first number
