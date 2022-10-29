@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d38e724f-35a3-40aa-8927-6cdecd82dad7" name="Changes" comment="Add search filed test">
+    <list default="true" id="d38e724f-35a3-40aa-8927-6cdecd82dad7" name="Changes" comment="Delete unit tests">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebDriverClaculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebDriverClaculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FirstWebsiteTest">
+  <component name="RunManager" selected="TestNG.WebDriverClaculatorTest">
     <configuration name="FirstWebsiteTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium sample" />
       <option name="PACKAGE_NAME" value="" />
@@ -114,8 +114,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FirstWebsiteTest" />
         <item itemvalue="TestNG.WebDriverClaculatorTest" />
+        <item itemvalue="TestNG.FirstWebsiteTest" />
         <item itemvalue="TestNG.FirstWebsiteTest.verifyThatAutoSearchWorks" />
         <item itemvalue="TestNG.FirstWebsiteTest.verifyThatSearchFiledIsDisplayed" />
         <item itemvalue="TestNG.FirstWebsiteTest.verifyThatHomeIsOpenedSuccessfully" />
@@ -173,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666796382966</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Delete unit tests">
+      <created>1667038601153</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667038601153</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +201,7 @@
     <MESSAGE value="Add AdvancedCalculatorTest test suite" />
     <MESSAGE value="Add webdriver calculator website with data provider test" />
     <MESSAGE value="Add search filed test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add search filed test" />
+    <MESSAGE value="Delete unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete unit tests" />
   </component>
 </project>
