@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d38e724f-35a3-40aa-8927-6cdecd82dad7" name="Changes" comment="update test run command">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BrowserOptions.java" afterDir="false" />
+    <list default="true" id="d38e724f-35a3-40aa-8927-6cdecd82dad7" name="Changes" comment="Set the webdriver as headless">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/uiTest.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/uiTest.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FirstWebsiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstWebsiteTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -194,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667040633883</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Set the webdriver as headless">
+      <created>1667041153439</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667041153439</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +225,7 @@
     <MESSAGE value="Delete unit tests" />
     <MESSAGE value="Add test run command" />
     <MESSAGE value="update test run command" />
-    <option name="LAST_COMMIT_MESSAGE" value="update test run command" />
+    <MESSAGE value="Set the webdriver as headless" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set the webdriver as headless" />
   </component>
 </project>

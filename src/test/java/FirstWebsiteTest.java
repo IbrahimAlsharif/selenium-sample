@@ -18,6 +18,7 @@ public class FirstWebsiteTest {
 
     @Test
     public void verifyThatHomeIsOpenedSuccessfully(){
+
         Assert.assertTrue(HomePagePOM.getMainTextItem().isDisplayed());
     }
 
