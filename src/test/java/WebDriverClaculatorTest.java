@@ -26,13 +26,18 @@ public class WebDriverClaculatorTest {
 
     @DataProvider (name = "calculator")
     public Object[][] dpMethod(){
-       return new Object[][] {{7,"+", 2, 9},{8,"-", 3, 5},{8,"+", 2, 10},{5,"-", 3, 2}};
+
+       return new Object[][] {
+               {7,"+", 2, 9},
+               {8,"-", 3, 5},
+               {8,"+", 2, 10},
+               {5,"-", 3, 2}};
     }
 
 
 
     @Test (dataProvider = "calculator")
-    public void testProvider(int number1,String operation, int number2, int expectedResult){
+    public void testCalculator(int number1,String operation, int number2, int expectedResult){
 
        //Click the first number
        String number1Xpath = "//span[@onclick='r("+number1+")']";
@@ -61,9 +66,9 @@ public class WebDriverClaculatorTest {
         //Verify the output
         WebElement answerFiled= driver.findElement(By.id("sciOutPut"));
         assertTrue(answerFiled.isDisplayed());
-        System.out.println("getText: "+answerFiled.getText().trim());
-        System.out.println("innerText: "+answerFiled.getAttribute("innerText").trim());
-        System.out.println("textContent: "+answerFiled.getAttribute("textContent").trim());
+//        System.out.println("getText: "+answerFiled.getText().trim());
+//        System.out.println("innerText: "+answerFiled.getAttribute("innerText").trim());
+//        System.out.println("textContent: "+answerFiled.getAttribute("textContent").trim());
         assertEquals(answerFiled.getText().trim(), ""+expectedResult);
 
 
